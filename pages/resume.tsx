@@ -102,7 +102,7 @@ const ResumePage: NextPage = () => {
 
           <section className="experience-section">
             <h3 className="section-heading">Experience</h3>
-            <div className="grid gap-8">
+            <div className="grid gap-10">
               <ExperienceBox
                 companyName="Sr Frontend Developer, Zomentum"
                 fromDate={new Date(2019, 2, 1)}
