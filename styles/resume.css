@@ -70,11 +70,7 @@ ul li {
 }
 
 .avoid-page-break {
-  /* page-break-inside: avoid; */
-  /* page-break-after: always; */
-  /* page-break-inside: avoid; */
-  /* -webkit-region-break-inside: avoid; */
-  /* display: block; */
+  page-break-inside: avoid;
 }
 
 @media print {
