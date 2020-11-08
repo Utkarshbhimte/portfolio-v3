@@ -102,148 +102,151 @@ const ResumePage: NextPage = () => {
 
           <section className="experience-section">
             <h3 className="section-heading">Experience</h3>
-            <ExperienceBox
-              companyName="Sr Frontend Developer, Zomentum"
-              fromDate={new Date(2019, 2, 1)}
-              active
-              details={
-                <span>
-                  Zomentum is a all-in-one solution for MSPs to manage their
-                  sales seamlessly, currently grown to $500,000.00 MRR
-                </span>
-              }
-              toDate={new Date()}
-            >
-              <ul>
-                <li>
-                  Started as the first developer to the FE codebase, responsible
-                  for improving architecture, mentor the team and build complex
-                  features
-                </li>
-                <li>
-                  Buit a feature-rich robust document builder in React with
-                  interactive blocks, also making it performant enough to
-                  support long documents.
-                </li>
-                <li>
-                  Have worked with the core team to architect and build a fully
-                  modularized Reports module which supports multiple chart types
-                </li>
-                <li>
-                  Have taught and trained developers to start contrbuting to the
-                  FE codebase.
-                </li>
-              </ul>
-            </ExperienceBox>
-            <ExperienceBox
-              companyName="Frontend Developer , GetMyParking"
-              fromDate={new Date(2018, 5, 1)}
-              toDate={new Date(2019, 2, 31)}
-              details={
-                <span>
-                  Get My Parking is a Digital Parking Platform that integrates
-                  any parking equipment and connects it to mobile and cloud for
-                  a standardized seamless experience
-                </span>
-              }
-            >
-              <ul>
-                <li>
-                  Solo built a dynamic, modular, Attribute-Based Access
-                  Controlled Robust dashboard for various operations and
-                  analytics features using ReactJS, used to manage 1.5M user
-                  accounts, exapanding across India, US and Europe.
-                </li>
-                <li>
-                  Core-contributor to a web based dashboard console which can be
-                  deployed to a RaspberryPi and can shows realtime parking data
-                  and configure access management, providing hassle-free parking
-                  revenue management, deployed to 50+ sites across US and
-                  Europe.
-                </li>
-                <li>
-                  Organized multiple React workshops to grow the Frontend Team
-                  by 10+ developers
-                </li>
-              </ul>
-            </ExperienceBox>
-            <ExperienceBox
-              companyName="Web Developer Freelancer, Wishfie"
-              fromDate={new Date(2018, 2, 1)}
-              toDate={new Date(2018, 5, 31)}
-              details={
-                <span>
-                  Wishfie empowers people to share their opinions on trending
-                  news through their mobile cameras
-                </span>
-              }
-            >
-              <ul>
-                <li>
-                  Solo built a server-side rendered video based social webapp
-                  using NextJS scaled upto 20,000+ users.
-                </li>
-                <li>
-                  Implemented best practices for SEO optimization like dynamic
-                  sitemap generation
-                </li>
-                <li>
-                  Built a feature like story-like video player interaction in
-                  React
-                </li>
-              </ul>
-            </ExperienceBox>
+            <div className="grid gap-8">
+              <ExperienceBox
+                companyName="Sr Frontend Developer, Zomentum"
+                fromDate={new Date(2019, 2, 1)}
+                active
+                details={
+                  <span>
+                    Zomentum is a all-in-one solution for MSPs to manage their
+                    sales seamlessly, currently grown to $500,000.00 MRR
+                  </span>
+                }
+                toDate={new Date()}
+              >
+                <ul>
+                  <li>
+                    Started as the first developer to the FE codebase,
+                    responsible for improving architecture, mentor the team and
+                    build complex features
+                  </li>
+                  <li>
+                    Buit a feature-rich robust document builder in React with
+                    interactive blocks, also making it performant enough to
+                    support long documents.
+                  </li>
+                  <li>
+                    Have worked with the core team to architect and build a
+                    fully modularized Reports module which supports multiple
+                    chart types
+                  </li>
+                  <li>
+                    Have taught and trained developers to start contrbuting to
+                    the FE codebase.
+                  </li>
+                </ul>
+              </ExperienceBox>
+              <ExperienceBox
+                companyName="Frontend Developer , GetMyParking"
+                fromDate={new Date(2018, 5, 1)}
+                toDate={new Date(2019, 2, 31)}
+                details={
+                  <span>
+                    Get My Parking is a Digital Parking Platform that integrates
+                    any parking equipment and connects it to mobile and cloud
+                    for a standardized seamless experience
+                  </span>
+                }
+              >
+                <ul>
+                  <li>
+                    Solo built a dynamic, modular, Attribute-Based Access
+                    Controlled Robust dashboard for various operations and
+                    analytics features using ReactJS, used to manage 1.5M user
+                    accounts, exapanding across India, US and Europe.
+                  </li>
+                  <li>
+                    Core-contributor to a web based dashboard console which can
+                    be deployed to a RaspberryPi and can shows realtime parking
+                    data and configure access management, providing hassle-free
+                    parking revenue management, deployed to 50+ sites across US
+                    and Europe.
+                  </li>
+                  <li>
+                    Organized multiple React workshops to grow the Frontend Team
+                    by 10+ developers
+                  </li>
+                </ul>
+              </ExperienceBox>
+              <ExperienceBox
+                companyName="Web Developer Freelancer, Wishfie"
+                fromDate={new Date(2018, 2, 1)}
+                toDate={new Date(2018, 5, 31)}
+                details={
+                  <span>
+                    Wishfie empowers people to share their opinions on trending
+                    news through their mobile cameras
+                  </span>
+                }
+              >
+                <ul>
+                  <li>
+                    Solo built a server-side rendered video based social webapp
+                    using NextJS scaled upto 20,000+ users.
+                  </li>
+                  <li>
+                    Implemented best practices for SEO optimization like dynamic
+                    sitemap generation
+                  </li>
+                  <li>
+                    Built a feature like story-like video player interaction in
+                    React
+                  </li>
+                </ul>
+              </ExperienceBox>
 
-            <ExperienceBox
-              companyName="Frontend Web Developer , Offrd"
-              fromDate={new Date(2017, 1, 1)}
-              toDate={new Date(2018, 2, 31)}
-              details={
-                <span>
-                  Offrd is a hiring platform which enables people to get hired
-                  in high growth companies for business roles by solving
-                  challenges
-                </span>
-              }
-            >
-              <ul>
-                <li>
-                  Core Contributor to the FE codebase of a hiring platform with
-                  Rich text editing and video upload.
-                </li>
-                <li>
-                  Built dashbaord for internal to manage content across the
-                  webapp.
-                </li>
-              </ul>
-            </ExperienceBox>
-            <ExperienceBox
-              companyName="Frontend Developer Intern, Udacity"
-              fromDate={new Date(2016, 10, 1)}
-              toDate={new Date(2017, 1, 28)}
-              details={
-                <span>
-                  Udacity is a Edtech Startup providing courses taught by
-                  industry pros from Google, FB, and more.
-                </span>
-              }
-            >
-              <ul>
-                <li>
-                  Was responsible for delivering all the Frontend requirement
-                  from the BD team, including new campaign pages and custom
-                  onboarding experiences
-                </li>
-                <li>
-                  Worked on redesigning for the Indian subdomain of the Udacity
-                  website according to the new design guide
-                </li>
-                <li>
-                  Improved developer experience by configuring gulp for SASS hot
-                  reloading, etc
-                </li>
-              </ul>
-            </ExperienceBox>
+              <ExperienceBox
+                companyName="Frontend Web Developer , Offrd"
+                fromDate={new Date(2017, 1, 1)}
+                toDate={new Date(2018, 2, 31)}
+                details={
+                  <span>
+                    Offrd is a hiring platform which enables people to get hired
+                    in high growth companies for business roles by solving
+                    challenges
+                  </span>
+                }
+              >
+                <ul>
+                  <li>
+                    Core Contributor to the FE codebase of a hiring platform
+                    with Rich text editing and video upload.
+                  </li>
+                  <li>
+                    Built dashbaord for internal to manage content across the
+                    webapp.
+                  </li>
+                </ul>
+              </ExperienceBox>
+              <ExperienceBox
+                companyName="Frontend Developer Intern, Udacity"
+                fromDate={new Date(2016, 10, 1)}
+                toDate={new Date(2017, 1, 28)}
+                details={
+                  <span>
+                    Udacity is a Edtech Startup providing courses taught by
+                    industry pros from Google, FB, and more.
+                  </span>
+                }
+              >
+                <ul>
+                  <li>
+                    Was responsible for delivering all the Frontend requirement
+                    from the BD team, including new campaign pages and custom
+                    onboarding experiences
+                  </li>
+                  <li>
+                    Worked on redesigning for the Indian subdomain of the
+                    Udacity website according to the new design guide
+                  </li>
+                  <li>
+                    Improved developer experience by configuring gulp for SASS
+                    hot reloading, etc
+                  </li>
+                </ul>
+              </ExperienceBox>
+            </div>
           </section>
 
           <div className="skills-section">
