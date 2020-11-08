@@ -28,6 +28,19 @@ section {
   grid-row-end: 4;
 }
 
+@media (max-width: 700px) {
+  .skills-section {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-column-end: 4;
+  }
+
+  .experience-section,
+  .highlight-section {
+    grid-column-end: 4;
+  }
+}
+
 p {
   @apply text-gray-600 text-sm;
 }
@@ -38,6 +51,7 @@ a {
 
 ul {
   list-style: "👉";
+  @apply grid gap-2;
 }
 
 ul li {
@@ -45,6 +59,10 @@ ul li {
   padding-left: 1rem;
 }
 
-ul {
-  @apply grid gap-2;
+.avoid-page-break {
+  page-break-inside: avoid;
+  /* page-break-after: always; */
+  page-break-inside: avoid;
+  -webkit-region-break-inside: avoid;
+  display: block;
 }

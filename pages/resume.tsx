@@ -13,13 +13,16 @@ import BlogIcon from "../public/static/book.svg";
 import DownloadIcon from "../public/static/download.svg";
 
 const ResumePage: NextPage = () => {
+  const handlePrintButtonClick = () => {
+    window.print();
+  };
   return (
     <div className="my-8">
       <Head>
         <title>Utkarsh Bhimte's Resume</title>
       </Head>
-      <div className="container mx-auto">
-        <div className="grid gap-6 grid-cols-3">
+      <div className="container mx-auto px-6 md:px-0">
+        <div className="grid gap-6 md:grid-cols-3">
           <section className="header-section md:flex items-center justify-between">
             <div className="flex items-center">
               <Image
@@ -34,7 +37,7 @@ const ResumePage: NextPage = () => {
                 <p className="text-gray-600">Senior Web Developer</p>
               </div>
             </div>
-            <div className="grid items-center gap-12 grid-cols-5">
+            <div className="grid items-center gap-12 grid-cols-5 mt-6 md:mt-0 ">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -63,7 +66,7 @@ const ResumePage: NextPage = () => {
               >
                 <BlogIcon />
               </a>
-              <a download href="">
+              <a onClick={handlePrintButtonClick}>
                 <DownloadIcon />
               </a>
             </div>
