@@ -249,7 +249,16 @@ const ResumePage: NextPage = () => {
             </div>
           </section>
 
-          <div className="skills-section">
+          <div className="skills-section grid gap-4">
+            <section>
+              <h3 className="section-heading">Contact</h3>
+              <div>
+                <span>Email: </span>
+                <a href="mailto:workwithutkarsh@gmail.com">
+                  workwithutkarsh@gmail.com
+                </a>
+              </div>
+            </section>
             <section>
               <h3 className="section-heading">Skills</h3>
 
