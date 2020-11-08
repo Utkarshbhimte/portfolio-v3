@@ -22,7 +22,7 @@ const ResumePage: NextPage = () => {
         <title>Utkarsh Bhimte's Resume</title>
       </Head>
       <div className="container mx-auto px-6 md:px-0">
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="page-grid">
           <section className="header-section md:flex items-center justify-between">
             <div className="flex items-center">
               <Image

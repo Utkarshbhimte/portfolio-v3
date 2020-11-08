@@ -18,7 +18,7 @@ const ExperienceBox: React.FC<ExperienceBoxProps> = ({
   children,
 }) => {
   return (
-    <div>
+    <div className="avoid-page-break">
       <h4 className="font-medium my-1">{companyName}</h4>
       <div className="text-gray-600 text-sm">
         <div className="mb-4">
