@@ -13,28 +13,16 @@ const Home: NextPage = () => (
         content="A quick starter Template for Next.js with Tailwind CSS and Typescript"
       />
     </Head>
-    <div className="p-4 shadow rounded bg-white">
-      <h1 className="text-purple-700 text-3xl ">Next.js</h1>
-      <p className="text-gray-800">with Tailwind CSS and Typescript</p>
-      <p className="text-gray-800">Made with ♥ by me at</p>
-      <a
-        className="text-purple-600 hover:text-purple-400"
-        href="https://github.com/xDecus"
-        target="blank"
-      >
-        https://github.com/xDecus
-      </a>
+    <div className="min-h-screen">
+      <div className="h-screen">
+        <div className="container mx-auto px-2 md:px-0 relative h-full">
+          <div style={{ bottom: "2rem", left: 0 }} className="absolute">
+            <div className="text-2xl">Hey there 👋, My name is</div>
+            <h2 className="text-6xl font-medium">Utkarsh Bhimte</h2>
+          </div>
+        </div>
+      </div>
     </div>
-    <section className="px-4 py-2 flex align-middle">
-      <Image
-        src="/static/profile-photo.jpg"
-        alt="Picture of the developer"
-        height={200}
-        width={200}
-        className="rounded-full mr-6"
-      />
-      <h3 className="text-xl">Utkarsh Bhimte</h3>
-    </section>
   </div>
 );
 
