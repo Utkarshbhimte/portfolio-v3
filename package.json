@@ -12,6 +12,7 @@
   "author": "xDecus",
   "license": "MIT",
   "dependencies": {
+    "@ui-devtools/tailwind": "github:ui-devtools/tailwind",
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-inline-react-svg": "^1.1.2",
     "drei": "^1.5.7",
